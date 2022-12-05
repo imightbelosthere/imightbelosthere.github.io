@@ -2,7 +2,7 @@
 title: "How I've Setup my Blog"
 date: 2022-11-27T00:12:00+01:00
 draft: false
-toc: false
+toc: true
 images:
 categories: [blog]
 tags: [blog]
@@ -35,7 +35,7 @@ As I already had the GitHub Page in place from a previous experiment... I decide
 ### Creating a new Pull Request
 
 Need to create a pull request in order to start getting things done. So I've did some tests with it and did first a `gh pr status` to check how it was and got back the current situation of the repository as it follows:
-![Pull Req Screenshot](/Pasted%20image%2020221125001001.png)
+![Pull Req Screenshot](/assets/imgs/2020221125001001.png)
 
 
 This made the repository ready for changes and work on. Now, on to the ~~Obsidian~~ part, as we need a vault to work with.
