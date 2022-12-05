@@ -4,6 +4,7 @@ date: 2021-10-07T15:46:43+02:00
 draft: false
 toc: true
 images:
+categories: [howto,powershell]
 tags: [blog,cpu,testing]
 ---
 
