@@ -4,8 +4,8 @@ date: 2022-11-27T00:12:00+01:00
 draft: false
 toc: false
 images:
-tags:
-  - blog
+categories: [blog]
+tags: [blog]
 ---
 
 # Introduction
@@ -22,7 +22,6 @@ This all to say that doesn't matter where's the data, if you want to edit it fro
 ## Software setup
 
 I use chocolatey to expedite my software setup... I can't be bothered looking for packages, downloading and installing them and since Chocolatey exists and it's free, I use it, so with the help of the ChocolateyGUI I've created a config with all the necessary packages, however here's a list of the main ones:
-- Hugo-Extended
 - ~~Obsidian~~ Visual Studio Code
 - GitHub CLI
 - Git
@@ -49,7 +48,6 @@ So essentially at this point I'm doing the whole site generation, preparation an
 But like I said, for now... it's all manual.
 Every post I create, I run the following commands in order:
 ```bash
-hugo
 cd public
 git add .
 git commit -m "New post - POST NAME HERE"
