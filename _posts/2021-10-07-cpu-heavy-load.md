@@ -23,7 +23,7 @@ Strangely enough this did the trick quite well. Although initially it was only c
 In the search on the interwebs I found a script that actually does the whole trick and kudos to the guy that shared it [here](https://www.robvit.com/windows_server/generate-cpu-load-with-powershell/ 'Generate CPU Load with Powershell') and decided to copy it here in case... you know... his blog goes away for some reason.
 
 ### The code
-```PowerShell
+```powershell
 $NumberOfLogicalProcessors = Get-WmiObject win32_processor | Select-Object -ExpandProperty NumberOfLogicalProcessors
 
 ForEach ($core in 1..$NumberOfLogicalProcessors){ 
