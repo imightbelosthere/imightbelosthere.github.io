@@ -35,7 +35,7 @@ As I already had the GitHub Page in place from a previous experiment... I decide
 ### Creating a new Pull Request
 
 Need to create a pull request in order to start getting things done. So I've did some tests with it and did first a `gh pr status` to check how it was and got back the current situation of the repository as it follows:
-![Pull Req Screenshot](/assets/imgs/2020221125001001.png)
+![Pull Req Screenshot](/assets/imgs/20221125001001.png)
 
 
 This made the repository ready for changes and work on. Now, on to the ~~Obsidian~~ part, as we need a vault to work with.
